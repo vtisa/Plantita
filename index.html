@@ -3,56 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Plantas - Tu Jardín Perfecto</title>
+    <title>Tu Jardín Perfecto - Catálogo de Plantas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
+
+<div class="notification" id="notification">
+    Bienvenido a Tu Jardín Perfecto! Descubre nuestra variedad de plantas para tu hogar.
+</div>
 <body>
-    <div class="welcome-overlay">
-        <div class="welcome-content">
-            <h2>Bienvenido a Tu Jardín Perfecto</h2>
-            <p>Descubre nuestra increíble selección de plantas para transformar tu espacio en un oasis verde.</p>
-            <button id="enter-site">Explorar Catálogo</button>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="https://e7.pngegg.com/pngimages/553/914/png-clipart-flowering-plant-orchids-nahuelbuta-plants-leaf-logo.png" alt="Logo de Tu Jardín Perfecto" class="logo">
+                <span class="brand-name">Tu Jardín Perfecto</span>
+            </div>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#interior">Plantas de Interior</a></li>
+                <li><a href="#exterior">Plantas de Exterior</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </div>
-    </div>
-
-    <header>
-        <img src="https://w7.pngwing.com/pngs/401/501/png-transparent-leaf-marin-tennis-club-plant-stem-leaf-leaf-logo-plant-stem.png" alt="Logo de Tu Jardín Perfecto" class="logo">
-        <h1>Catálogo de Plantas</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#interior">Plantas de Interior</a></li>
-            <li><a href="#exterior">Plantas de Exterior</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
     </nav>
 
     <main>
         <section id="inicio" class="hero">
             <div class="carousel">
-                <div class="carousel-item">
-                    <img src="https://content.elmueble.com/medio/2019/03/25/monstera_f97f4746_800x800.jpg" alt="Planta Exótica 1">
+                <div class="carousel-item" style="background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-1326386884-646df67de9696.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*');">
                     <div class="carousel-overlay"></div>
                     <div class="carousel-caption">
                         <h3>Plantas Exóticas</h3>
                         <p>Descubre nuestra colección de plantas únicas y fascinantes</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://example.com/planta-interior.jpg" alt="Planta de Interior">
+                <div class="carousel-item" style="background-image: url('https://i0.wp.com/www.florestore.com/flores-a-domicilio/wp-content/uploads/2018/08/cuidados-de-las-lantanas-florestore-portada.jpg?fit=846%2C611&ssl=1');">
                     <div class="carousel-overlay"></div>
                     <div class="carousel-caption">
                         <h3>Belleza Interior</h3>
                         <p>Transforma tu hogar con nuestras elegantes plantas de interior</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://example.com/planta-exterior.jpg" alt="Planta de Exterior">
+                <div class="carousel-item" style="background-image: url('https://images.ecestaticos.com/D8-WFSUJQz13Z9e6HqTejjrcjGw=/0x0:1962x1528/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Feac%2Ffbd%2F158%2Feacfbd158f9b864caf1a92dc715c7c3e.jpg');">
                     <div class="carousel-overlay"></div>
                     <div class="carousel-caption">
                         <h3>Jardín de Ensueño</h3>
@@ -66,28 +63,58 @@
             <h2 class="section-title">Plantas de Interior</h2>
             <div class="plants-grid">
                 <div class="card">
-                    <img src="https://content.elmueble.com/medio/2019/03/25/monstera_f97f4746_800x800.jpg" alt="Ficus Lyrata">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
                     <div class="card-content">
                         <h3>Ficus Lyrata</h3>
-                        <p>Planta de hojas grandes, perfecta para espacios amplios.</p>
-                        <div class="price">$45.00</div>
-                        <a href="https://wa.me/1234567890?text=Hola,%20estoy%20interesado%20en%20el%20Ficus%20Lyrata" class="btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> Comprar Ahora
-                        </a>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$50.00</span>
+                            <span class="discounted-price">$40.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://example.com/planta-interior-2.jpg" alt="Monstera Deliciosa">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
                     <div class="card-content">
-                        <h3>Monstera Deliciosa</h3>
-                        <p>Planta tropical de hojas perforadas, muy decorativa.</p>
-                        <div class="price">$38.00</div>
-                        <a href="https://wa.me/1234567890?text=Hola,%20estoy%20interesado%20en%20la%20Monstera%20Deliciosa" class="btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> Comprar Ahora
-                        </a>
+                        <h3>Ficus Lyrata</h3>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$50.00</span>
+                            <span class="discounted-price">$40.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
                     </div>
                 </div>
-                <!-- Añade más tarjetas de plantas de interior aquí -->
+                <div class="card">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
+                    <div class="card-content">
+                        <h3>Ficus Lyrata</h3>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$50.00</span>
+                            <span class="discounted-price">$40.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Monstera Deliciosa">
+                    <div class="discount-badge">-15%</div>
+                    <div class="card-content">
+                        <h3>Monstera Deliciosa</h3>
+                        <p>Planta tropical con hojas grandes y perforadas, perfecta para interiores.</p>
+                        <div class="price">
+                            <span class="original-price">$45.00</span>
+                            <span class="discounted-price">$38.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Monstera%20Deliciosa" class="btn" target="_blank">Comprar</a>
+                    </div>
+                </div>
+                <!-- Más tarjetas de plantas de interior aquí -->
             </div>
         </section>
 
@@ -95,33 +122,89 @@
             <h2 class="section-title">Plantas de Exterior</h2>
             <div class="plants-grid">
                 <div class="card">
-                    <img src="https://example.com/planta-exterior-1.jpg" alt="Lavanda">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Lavanda">
+                    <div class="discount-badge">-17%</div>
                     <div class="card-content">
                         <h3>Lavanda</h3>
-                        <p>Aromática y resistente, perfecta para jardines soleados.</p>
-                        <div class="price">$25.00</div>
-                        <a href="https://wa.me/1234567890?text=Hola,%20estoy%20interesado%20en%20la%20Lavanda" class="btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> Comprar Ahora
-                        </a>
+                        <p>Aromática planta perenne con hermosas flores moradas.</p>
+                        <div class="price">
+                            <span class="original-price">$30.00</span>
+                            <span class="discounted-price">$25.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Lavanda" class="btn" target="_blank">Comprar</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://example.com/planta-exterior-2.jpg" alt="Hortensias">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
                     <div class="card-content">
-                        <h3>Hortensias</h3>
-                        <p>Flores espectaculares que cambian de color según el suelo.</p>
-                        <div class="price">$30.00</div>
-                        <a href="https://wa.me/1234567890?text=Hola,%20estoy%20interesado%20en%20las%20Hortensias" class="btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> Comprar Ahora
-                        </a>
+                        <h3>Ficus Lyrata</h3>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$60.00</span>
+                            <span class="discounted-price">$45.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
                     </div>
                 </div>
-                <!-- Añade más tarjetas de plantas de exterior aquí -->
+                <div class="card">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
+                    <div class="card-content">
+                        <h3>Ficus Lyrata</h3>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$50.00</span>
+                            <span class="discounted-price">$40.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
+                    <div class="card-content">
+                        <h3>Ficus Lyrata</h3>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$50.00</span>
+                            <span class="discounted-price">$40.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Ficus Lyrata">
+                    <div class="discount-badge">-20%</div>
+                    <div class="card-content">
+                        <h3>Ficus Lyrata</h3>
+                        <p>Elegante planta de interior con grandes hojas en forma de violín.</p>
+                        <div class="price">
+                            <span class="original-price">$50.00</span>
+                            <span class="discounted-price">$40.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Ficus%20Lyrata" class="btn" target="_blank">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://imagenes.muyinteresante.com/files/image_414_276/uploads/2024/02/28/65df05360eda8.jpeg" alt="Hortensias">
+                    <div class="discount-badge">-12%</div>
+                    <div class="card-content">
+                        <h3>Hortensias</h3>
+                        <p>Arbusto con espectaculares flores en forma de bola, ideal para jardines.</p>
+                        <div class="price">
+                            <span class="original-price">$40.00</span>
+                            <span class="discounted-price">$35.00</span>
+                        </div>
+                        <a href="https://wa.me/1234567890?text=Me%20interesa%20comprar%20la%20planta%20Hortensias" class="btn" target="_blank">Comprar</a>
+                    </div>
+                </div>
+                <!-- Más tarjetas de plantas de exterior aquí -->
             </div>
         </section>
     </main>
 
-    <footer id="contacto">
+    <footer id="contacto" class="footer">
         <div class="footer-content">
             <div class="footer-section">
                 <h3>Contacto</h3>
@@ -133,8 +216,7 @@
                 <h3>Síguenos</h3>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/tujardinperfecto"><i class="fab fa-instagram"></i></a>
-             
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="footer-section">
@@ -145,7 +227,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Tu Jardín Perfecto. Todos los derechos reservados.</p>
+            <p>&copy; <span id="current-year"></span> Tu Jardín Perfecto. Todos los derechos reservados.</p>
         </div>
     </footer>
 
